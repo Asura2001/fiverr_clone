@@ -1,0 +1,508 @@
+body {
+    overflow-x: hidden;
+}
+
+.keepdisplay {
+    display: block!important;
+}
+
+header .search {
+    width: 250px;
+}
+
+.loginsearch {
+    width: 650px!important;
+}
+
+header .explore .dropdown-menu {
+    min-width: 30rem;
+}
+
+header .explore .dropdown-menu a:hover,
+header .explore .dropdown-menu a:hover p,
+.logindropdown .dropdown-menu a:hover {
+    background-color: #fff;
+    color: #3da13d !important;
+}
+
+.bg-white {
+    background-color: #ffffff;
+    transition: 0.5s;
+}
+
+.bg-transparent {
+    transition: 0.5s;
+}
+
+.categories .btn:hover {
+    text-decoration: underline #289428;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
+}
+
+.categories .dropdown1:hover>.dropdown-menu {
+    display: block;
+    translate: -30px 0px;
+    min-width: 80rem;
+}
+
+.categories .dropdown2:hover>.dropdown-menu {
+    display: block;
+    translate: -176px 0px;
+    min-width: 80rem;
+}
+
+.categories .dropdown3:hover>.dropdown-menu {
+    display: block;
+    translate: -76px 0px;
+    min-width: 63rem;
+}
+
+.categories .dropdown4:hover>.dropdown-menu {
+    display: block;
+    translate: -486px 0px;
+    min-width: 80rem;
+}
+
+.categories .dropdown5:hover>.dropdown-menu {
+    display: block;
+    translate: -636px 0px;
+    min-width: 80rem;
+}
+ 
+.categories .dropdown6:hover>.dropdown-menu {
+    display: block;
+    translate: -531px 0px;
+    min-width: 63rem;
+}
+
+.categories .dropdown7:hover>.dropdown-menu {
+    display: block;
+    translate: -916px 0px;
+    min-width: 80rem;
+}
+
+.categories .dropdown8:hover>.dropdown-menu {
+    display: block;
+    translate: -426px 0px;
+    min-width: 45rem;
+}
+
+.categories .dropdown9:hover>.dropdown-menu {
+    display: block;
+    translate: -471px 0px;
+    min-width: 45rem;
+}
+ 
+.categories .dropdown10:hover>.dropdown-menu {
+    display: block;
+    translate: -876px 0px;
+    min-width: 63rem;
+}
+
+.categories .dropdown1>.dropdown-toggle:active,
+.categories .dropdown2>.dropdown-toggle:active,
+.categories .dropdown3>.dropdown-toggle:active,
+.categories .dropdown4>.dropdown-toggle:active,
+.categories .dropdown5>.dropdown-toggle:active,
+.categories .dropdown6>.dropdown-toggle:active,
+.categories .dropdown7>.dropdown-toggle:active,
+.categories .dropdown8>.dropdown-toggle:active,
+.categories .dropdown9>.dropdown-toggle:active,
+.categories .dropdown10>.dropdown-toggle:active {
+/*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+header .categories ul li a:hover {
+    background-color: #fff;
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel-text {
+    position: absolute;
+    top: 245px;
+    left: 30px;
+    z-index: 1;
+}
+
+.popular-services .carousel-control-prev,
+.popular-services .carousel-control-next {
+    width: 60px;
+    height: 60px;
+    background: #000;
+    display: block;
+    margin-top: 140px;
+    border-radius: 50%;
+}
+
+.popular-services .carousel-control-next-icon,
+.popular-services .carousel-control-next-icon {
+    margin-top: 5px;
+}
+
+.bg-lightblue {
+    background-color: #cee7ef;
+}
+
+.bg-darkblue {
+    background-color: #02026e;
+}
+
+.categories-image-holder .categories {
+    background-image: linear-gradient(#a7a7a7 0 0);
+    background-position: top center; /*Adjust the background-position to move the line*/
+    background-size: 25% 2px; /*Adjust the background size to control length and height*/
+    background-repeat: no-repeat;
+    padding-top: 4px; /* this can also control the position */
+    transition: 0.2s;
+}
+
+.categories-image-holder a:hover>.categories {
+    background-image: linear-gradient(#4d9238 0 0);
+    background-position: top center; /*Adjust the background-position to move the line*/
+    background-size: 45% 2px; /*Adjust the background size to control length and height*/
+    background-repeat: no-repeat;
+    padding-top: 4px; /* this can also control the position */
+    transition: 0.2s;
+}
+
+.logo-maker-holder .logo-maker {
+    background-color: #5353cd;
+}
+
+.logo-maker-holder {
+    position: relative;
+}
+
+.logo-maker-holder .logo-maker-text {
+    position: absolute;
+    top: 106px;
+    left: 118px;
+}
+
+
+.inspiring-work .img2 {
+    height: 200px;
+}
+
+.inspiring-work .carousel-control-prev,
+.inspiring-work .carousel-control-next {
+    width: 60px;
+    height: 60px;
+    background: #000;
+    display: block;
+    margin-top: 100px;
+    border-radius: 50%;
+}
+
+.inspiring-work .carousel-control-next-icon,
+.inspiring-work .carousel-control-next-icon {
+    margin-top: 5px;
+}
+
+.inspiring-work .border {
+    border-radius: 50%;
+}
+
+
+.guides .carousel-item .img {
+    width: 95%;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.guides .carousel-control-prev,
+.guides .carousel-control-next,
+.productphotographers .carousel-control-prev,
+.productphotographers .carousel-control-next {
+    width: 60px;
+    height: 60px;
+    background: #000;
+    display: block;
+    margin-top: 140px;
+    border-radius: 50%;
+}
+
+.guides .carousel-control-next-icon,
+.guides .carousel-control-next-icon {
+    margin-top: 5px;
+}
+
+.signup-text-holder .signup-text {
+    position: relative;
+}
+
+.signup-text .signup {
+    position: absolute;
+    top: 130px;
+    left: 80px;
+}
+
+footer ul a:hover {
+    text-decoration: underline gray 1px;
+}
+
+footer ul a span {
+    color: #a9a9a9!important; 
+}
+
+footer div .links:hover {
+    background-color: #c2c2c2;
+    border-radius: 50%;
+}
+
+.register-text-holder {
+    position: relative;
+}
+
+.register-text-holder .register-text {
+    position: absolute;
+    top: 120px;
+    left: 55px;
+}
+
+.pass {
+    position: relative;
+}
+
+.pass .showpass {
+    position: absolute;
+    top: 5px;
+    right: 14px;
+}
+
+.pass .showpass {
+    color: #4343a9;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.btn-facebook {
+    background-color: #2d2d9c;
+    color: white;
+}
+
+.btn-google {
+    background-color: #d74040;
+    color: white;
+}
+
+.btn-facebook:hover {
+    background-color: #292983;
+    color: #fff;
+}
+
+.btn-google:hover {
+    background-color: #a13333;
+    color: #fff;
+}
+
+.hr-width .width {
+    width: 45%;
+}
+
+.underline-hover:hover {
+    text-decoration: underline;
+}
+
+.profilebg {
+    background-color: #ededed;
+}
+
+.profileimage {
+    cursor: pointer;
+    position: relative;
+}
+
+.imagepfp {
+    border-radius: 50%;
+}
+
+.imagefp {
+    visibility: hidden;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.profileimage:hover .imagefp {
+    background-color: rgba(31, 31, 31, 0.8);
+    visibility: visible;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.btn-lightgray {
+    background-color: #ebebeb;
+    color: #000;
+}
+
+.btn-lightgray:hover {
+    background-color: #dbd9d9;
+    color: #000;
+}
+
+.btn-green {
+    background-color: #529a52;
+    color: #fff;
+}
+
+.btn-green:hover {
+    background-color: #468346;
+    color: #fff;
+}
+
+.btn-greenshadow {
+    background-color: #529a52;
+    color: #fff;
+}
+
+.btn-greenshadow:hover {
+    color: #fff;
+    box-shadow: gray 0px 2px 8px;
+}
+
+.gig {
+    padding-left: 150px;
+}
+
+.resize {
+    resize: none;
+}
+
+.text-orange {
+    color: #ffa600!important;
+}
+
+.smaller {
+    font-size: .675em;
+}
+
+.gigimage {
+    cursor: pointer;
+}
+
+.removebutton1, .removebutton2, .removebutton3, .removebutton4 {
+    position: relative;
+}
+
+.removebutton1, .removebutton2, .removebutton3, .removebutton4 {
+    visibility: hidden;
+}
+
+.removebuttonholder1:hover>.removebutton1, 
+.removebuttonholder2:hover>.removebutton2, 
+.removebuttonholder3:hover>.removebutton3, 
+.removebuttonholder4:hover>.removebutton4 {
+    visibility: visible;
+}
+
+.removebutton1, .removebutton2, .removebutton3, .removebutton4 {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.header .sticky-top {
+    position: sticky;
+    top: 0;
+}
+
+.cartcontainer .cartbtn:hover {
+    cursor: pointer;
+}
+
+.cartcontainer 
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button,
+#signup-form 
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+
+.cartcontainer #inputclone, .cartcontainer #input2clone, .cartcontainer #input3clone {
+    width: 5.4%;
+}
+
+.orders>.dropdown-menu {
+    min-width: 16rem;
+}
+
+.overflow-y {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.countdown-container .bg{
+    background-color: #efefef;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+.starcard .selected { 
+	color: 	#ffc905!important; 
+} 
+.starcard .star{
+    color: #d4d4d4;
+    cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    header {
+        background-color: #fff;
+    }
+
+    header .searchbar {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 550px;
+        margin: 1.75rem auto;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 426px) {
+    .carousel-text {
+        top: 40px;
+        left: 20px;
+        z-index: 1;
+    }
+
+    .signup-text .signup {
+        top: 50px;
+        left: 20px;
+    }
+
+    .signup h1 {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .carousel-text {
+        top: 30px;
+        left: 205px;
+        z-index: 1;
+    }
+
+    .popular-services .carousel-item .img {
+        width: 30%;
+        border-radius: 10px;
+    }
+
+    .signup-text .signup {
+        top: 68px;
+        left: 148px;
+    }
+}
