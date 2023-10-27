@@ -1,0 +1,2 @@
+copy the images folder from admin or customer to seller.
+stripe-php and vendor folders will be added soon
